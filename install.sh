@@ -174,4 +174,6 @@ set +o errtrace
   qm set $VMID -serial0 socket >/dev/null
 )
 
-info "Completed Successfully! New VM ID is \e[1m$VMID\e[0m."
+info "Completed Successfully! Please check and update RAM and CPU cores in VM settings!"
+
+
